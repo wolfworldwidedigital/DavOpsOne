@@ -1,0 +1,156 @@
+{
+    "components": {
+      "atoms": {
+        "buttons": {
+          "userButton": {
+            "menu": {
+              "settings": "Instellingen",
+              "settingsKey": "I",
+              "APIKeys": "API-sleutels",
+              "logout": "Uitloggen"
+            }
+          }
+        }
+      },
+      "molecules": {
+        "newChatButton": {
+          "newChat": "Nieuwe Chat"
+        },
+        "tasklist": {
+          "TaskList": {
+            "title": "🗒️ Takenlijst",
+            "loading": "Laden...",
+            "error": "Er is een fout opgetreden"
+          }
+        },
+        "attachments": {
+          "cancelUpload": "Upload annuleren",
+          "removeAttachment": "Bijlage verwijderen"
+        },
+        "newChatDialog": {
+          "createNewChat": "Nieuwe chat maken?",
+          "clearChat": "Dit zal de huidige berichten wissen en een nieuwe chat starten.",
+          "cancel": "Annuleren",
+          "confirm": "Bevestigen"
+        },
+        "settingsModal": {
+          "expandMessages": "Berichten uitklappen",
+          "hideChainOfThought": "Denkpatroon verbergen",
+          "darkMode": "Donkere modus"
+        }
+      },
+      "organisms": {
+        "chat": {
+          "history": {
+            "index": {
+              "lastInputs": "Laatste invoer",
+              "noInputs": "Zo leeg...",
+              "loading": "Laden..."
+            }
+          },
+          "inputBox": {
+            "input": {
+              "placeholder": "Typ hier uw bericht..."
+            },
+            "speechButton": {
+              "start": "Opnemen starten",
+              "stop": "Opnemen stoppen"
+            },
+            "SubmitButton": {
+              "sendMessage": "Bericht verzenden",
+              "stopTask": "Taak stoppen"
+            },
+            "UploadButton": {
+              "attachFiles": "Bestanden bijvoegen"
+            },
+            "waterMark": {
+              "text": "Gebouwd met"
+            }
+          },
+          "Messages": {
+            "index": {
+              "running": "Bezig",
+              "executedSuccessfully": "succesvol uitgevoerd",
+              "failed": "mislukt",
+              "feedbackUpdated": "Feedback bijgewerkt",
+              "updating": "Bijwerken"
+            }
+          },
+          "dropScreen": {
+            "dropYourFilesHere": "Laat uw bestanden hier vallen"
+          },
+          "index": {
+            "failedToUpload": "Uploaden mislukt",
+            "cancelledUploadOf": "Uploaden geannuleerd van",
+            "couldNotReachServer": "Kan de server niet bereiken",
+            "continuingChat": "Voortzetting vorige chat"
+          },
+          "settings": {
+            "settingsPanel": "Instellingen paneel",
+            "reset": "Herstellen",
+            "cancel": "Annuleren",
+            "confirm": "Bevestigen"
+          }
+        },
+        "threadHistory": {
+          "sidebar": {
+            "filters": {
+              "FeedbackSelect": {
+                "feedbackAll": "Feedback: Alle",
+                "feedbackPositive": "Feedback: Positief",
+                "feedbackNegative": "Feedback: Negatief"
+              },
+              "SearchBar": {
+                "search": "Zoeken"
+              }
+            },
+            "DeleteThreadButton": {
+              "confirmMessage": "Dit zal de thread evenals de berichten en elementen verwijderen.",
+              "cancel": "Annuleren",
+              "confirm": "Bevestigen",
+              "deletingChat": "Chat verwijderen",
+              "chatDeleted": "Chat verwijderd"
+            },
+            "index": {
+              "pastChats": "Vorige Chats"
+            },
+            "ThreadList": {
+              "empty": "Leeg..."
+            },
+            "TriggerButton": {
+              "closeSidebar": "Sluit zijbalk",
+              "openSidebar": "Open zijbalk"
+            }
+          },
+          "Thread": {
+            "backToChat": "Ga terug naar de chat",
+            "chatCreatedOn": "Deze chat is aangemaakt op"
+          }
+        },
+        "header": {
+          "chat": "Chat",
+          "readme": "Leesmij"
+        }
+      }
+    },
+    "hooks": {
+      "useLLMProviders": {
+        "failedToFetchProviders": "Providers ophalen mislukt:"
+      }
+    },
+    "pages": {
+      "Design": {},
+      "Env": {
+        "savedSuccessfully": "Succesvol opgeslagen",
+        "requiredApiKeys": "Vereiste API-sleutels",
+        "requiredApiKeysInfo": "Om deze app te gebruiken, zijn de volgende API-sleutels vereist. De sleutels worden opgeslagen in de lokale opslag van uw apparaat."
+      },
+      "Page": {
+        "notPartOfProject": "U maakt geen deel uit van dit project."
+      },
+      "ResumeButton": {
+        "resumeChat": "Hervat Chat"
+      }
+    }
+  }
+  
